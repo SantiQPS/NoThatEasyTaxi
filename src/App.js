@@ -20,11 +20,11 @@ class App extends Component {
 
 
           <div className ="FormTitle">
-            <Link to="/ingresar" className ="FormTitle__Link">Ingresar</Link> or <Link to="/registrar"
+            <Link to="/ingresar" className ="FormTitle__Link">Ingresar</Link> or <Link to="/"
             className="FormTitle__Link FormTitle__Link--Active">Registrarse</Link>
           </div>
 
-          <Route exact path="/registrar" component={formularioRegistrar}>
+          <Route exact path="/" component={formularioRegistrar}>
           </Route>
           <Route path= "/ingresar" component= {formularioIngresar}>
           </Route>
